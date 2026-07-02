@@ -225,8 +225,8 @@ export const properties: Property[] = [
     title: 'Premium Highway-Facing Plot (Video Tour Available)',
     type: 'plot',
     typeLabel: 'CRDA Plot',
-    price: '₹2.5 Lakhs (Total)',
-    priceNumeric: 2.5,
+    price: '₹12,500 / Sq. Yd',
+    priceNumeric: 18.75,
     location: 'Kaza NH-16 Access Corridor, Near Mangalagiri',
     subRegion: 'Kaza',
     size: '150 Sq. Yards',
@@ -248,7 +248,7 @@ export const properties: Property[] = [
     ],
     specifications: {
       'Plot Size': '150 Sq. Yards',
-      'Price total': '₹2,50,000/-',
+      'Price per Sq. Yard': '₹12,500/-',
       'Facing': 'East facing',
       'Road Width': '33 Feet Road',
       'L.P. Number': 'Applied (Clear Title)'
@@ -259,8 +259,8 @@ export const properties: Property[] = [
     title: 'Scenic Managed Farmland Plots (Video Tour Available)',
     type: 'farmland',
     typeLabel: 'Farm Land',
-    price: '₹12,500 / Sq. Yd',
-    priceNumeric: 25, // Assuming 200 Sq. Yds average plot sizes
+    price: '₹2.5 Lakhs (Total)',
+    priceNumeric: 2.5,
     location: 'Adjacent to Proposed Amaravati ORR Region',
     subRegion: 'Amaravati ORR',
     size: 'Custom sizes available',
@@ -273,7 +273,7 @@ export const properties: Property[] = [
       'Secure gated estate layout',
       '24/7 caretaker security'
     ],
-    description: 'Take a virtual tour of this managed agricultural layout, selling at only ₹12,500 per Square Yard. Ideal for farmland buyers wanting high-yielding commercial plantations (sandalwood & organic fruit trees) with full maintenance services included. Perfectly placed next to the upcoming Amaravati Outer Ring Road region.',
+    description: 'Take a virtual tour of this managed agricultural layout, selling at only ₹2.5 Lakhs. Ideal for farmland buyers wanting high-yielding commercial plantations (sandalwood & organic fruit trees) with full maintenance services included. Perfectly placed next to the upcoming Amaravati Outer Ring Road region.',
     bankLoanAvailable: false,
     featured: true,
     video: '/property-video-2.mp4',
@@ -281,7 +281,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80'
     ],
     specifications: {
-      'Price per Sq. Yard': '₹12,500/-',
+      'Price total': '₹2,50,000/-',
       'Plot Type': 'Agricultural/Managed Plantation',
       'Facing': 'North-East Corner',
       'Water Supply': 'Dual source (Drip & Borewell)',
