@@ -248,7 +248,7 @@ export const properties: Property[] = [
       '/VIDEO-2026-07-04-12-08-28.mp4',
       '/VIDEO-2026-07-04-12-09-10.mp4',
       '/0002-1.mp4',
-      '/property-video-1.mp4'
+      '/property-video-2.mp4'
     ],
     images: [
       'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80'
@@ -283,7 +283,7 @@ export const properties: Property[] = [
     description: 'Take a virtual tour of this managed agricultural layout, selling at only ₹2.5 Lakhs. Ideal for farmland buyers wanting high-yielding commercial plantations (sandalwood & organic fruit trees) with full maintenance services included. Perfectly placed next to the upcoming Amaravati Outer Ring Road region.',
     bankLoanAvailable: false,
     featured: true,
-    video: '/property-video-2.mp4',
+    video: '/property-video-1.mp4',
     images: [
       'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80'
     ],
