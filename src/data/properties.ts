@@ -115,7 +115,7 @@ export const properties: Property[] = [
     ],
     video: '/VIDEO-2026-07-04-12-08-28.mp4',
     specifications: {
-      'Layout Approval No': 'L.P. NO: 4/2025 (CRDA Approved)',
+      'Layout Approval': 'CRDA Approved',
       'Plot Dimensions': '30 x 54 Feet',
       'Road Width': '60 Feet (Main Entrance)',
       'Zone Type': 'Residential Zone R1',

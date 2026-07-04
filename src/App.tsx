@@ -172,7 +172,7 @@ function App() {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-left">
                 <div className="max-w-2xl">
                   <div className="inline-flex items-center gap-2 bg-brand-pink text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md mb-3 border border-white/10">
-                    <LandmarkIcon className="h-3.5 w-3.5 text-brand-green" /> BANK LOANS APPROVED • LP NO: 4/2025
+                    <LandmarkIcon className="h-3.5 w-3.5 text-brand-green" /> BANK LOANS APPROVED
                   </div>
                   <h3 className="text-2xl sm:text-3xl font-black mb-1">
                     Bank Loan Available on All CRDA Approved Layouts & Flats

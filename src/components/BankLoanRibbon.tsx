@@ -35,9 +35,7 @@ export const BankLoanRibbon: React.FC<BankLoanRibbonProps> = ({ onContactClick }
             <span className="text-sm font-black text-white">Bank Loan Available</span>
             <span className="text-[11px] text-brand-green font-bold text-telugu leading-normal">బ్యాంక్ లోన్ సదుపాయం అందుబాటులో ఉంది</span>
           </div>
-          <div className="text-[10px] text-slate-300 flex flex-col gap-0.5 pt-1.5 border-t border-white/15">
-            <span className="font-semibold">L.P. NO: <span className="text-white font-extrabold">4/2025</span></span>
-          </div>
+
         </div>
       </div>
     </div>
