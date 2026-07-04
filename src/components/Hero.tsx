@@ -77,25 +77,12 @@ export const Hero: React.FC<HeroProps> = ({ onViewPropertiesClick }) => {
             Capital Amaravati & Greater Guntur Specialist
           </div>
 
-          {/* Telugu Tagline with highlight gradient */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 tracking-normal drop-shadow-md text-telugu">
-            రేపటి మీ భవిష్యత్తు కోసం <br className="hidden sm:inline" />
-            ఈరోజే <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-green to-emerald-300">భూమిపై</span> పెట్టుబడి పెట్టండి
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 tracking-normal drop-shadow-md">
+            Plots &amp; Farmlands in <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-green to-emerald-300">Amaravati</span>
           </h1>
 
-          {/* Rebuilt flyer tagline in Telugu */}
-          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-pink mb-2 text-telugu">
-            నమ్మకమైన రియల్ ఎస్టేట్ మార్కెటింగ్
-          </h2>
-
-          {/* English Tagline Translation */}
-          <h3 className="text-sm sm:text-base font-bold text-slate-200 mb-6 italic tracking-wide">
-            "Invest in land, invest in your future."
-          </h3>
-
-          {/* Business Pitch */}
-          <p className="text-base sm:text-lg text-slate-300 mb-8 max-w-xl leading-relaxed">
-            Get premium approved **CRDA plots**, fertile **farm lands**, high-quality **apartments**, and elegant **independent houses** in the booming Amaravati Outer Ring Road (ORR) corridor.
+          <p className="text-sm sm:text-base text-slate-300 mb-8 max-w-2xl leading-relaxed font-semibold">
+            Discover premium real estate opportunities in the rapidly expanding capital region of Andhra Pradesh. At Maa Bhoomi Real Estate, we specialize in offering a wide range of verified listings designed to suit your investment and residential needs. Whether you are searching for premium CRDA-approved residential plots ready for immediate home construction, fertile agricultural farmland for sustainable agro-investments, or strategic commercial properties positioned along the booming Amaravati Outer Ring Road (ORR) corridor, we have the perfect choice for you. Every listing in our portfolio undergoes a strict legal validation process to guarantee clear titles and absolute peace of mind for you and your family. Additionally, we provide comprehensive bank loan assistance, working hand-in-hand with top financial institutions like SBI, HDFC, and LIC HFL to secure quick approvals and flexible repayment options. With our deep local expertise in the Amaravati and Greater Guntur regions, we help you make informed decisions to grow your capital and secure your future.
           </p>
 
           {/* Interactive Hero Cards for Quick Filter */}
