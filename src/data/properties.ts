@@ -24,8 +24,8 @@ export const properties: Property[] = [
     title: 'Modern 3 BHK Luxury Apartment in Gorantla',
     type: 'apartment',
     typeLabel: 'Apartment',
-    price: '₹60 Lakhs',
-    priceNumeric: 60,
+    price: '₹70 Lakhs',
+    priceNumeric: 70,
     location: 'Gorantla VIP Road, Guntur',
     subRegion: 'Gorantla',
     size: '1650 Sq. Ft.',
@@ -89,7 +89,7 @@ export const properties: Property[] = [
   },
   {
     id: 'prop-5',
-    title: 'CRDA Approved Plot near Rayapudi Capital Region',
+    title: 'CRDA Approved Plot near Rayapudi (Video Tour Available)',
     type: 'plot',
     typeLabel: 'CRDA Plot',
     price: '₹55 Lakhs',
@@ -112,6 +112,7 @@ export const properties: Property[] = [
     images: [
       'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80'
     ],
+    video: '/VIDEO-2026-07-04-12-08-28.mp4',
     specifications: {
       'Layout Approval No': 'L.P. NO: 4/2025 (CRDA Approved)',
       'Plot Dimensions': '30 x 54 Feet',
@@ -158,8 +159,8 @@ export const properties: Property[] = [
     title: 'Budget 2 BHK Flat near Guntur Inner Ring Road',
     type: 'apartment',
     typeLabel: 'Apartment',
-    price: '₹45 Lakhs',
-    priceNumeric: 45,
+    price: '₹40 Lakhs',
+    priceNumeric: 40,
     location: 'Inner Ring Road, Guntur',
     subRegion: 'Inner Ring Road',
     size: '1150 Sq. Ft.',
@@ -241,7 +242,7 @@ export const properties: Property[] = [
     description: 'A premium 150 Sq. Yards residential plot with a complete video tour. Located close to Kaza and the main Mangalagiri region, with quick access to NH-16. This plot features a secure boundary wall, level red soil, and is ready for immediate home construction or long-term agricultural usage. Clear documentation and fast processing.',
     bankLoanAvailable: true,
     featured: true,
-    video: '/property-video-2.mp4',
+    video: '/VIDEO-2026-07-04-12-09-10.mp4',
     images: [
       'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80'
     ],
@@ -275,7 +276,7 @@ export const properties: Property[] = [
     description: 'Take a virtual tour of this managed agricultural layout, selling at only ₹2.5 Lakhs. Ideal for farmland buyers wanting high-yielding commercial plantations (sandalwood & organic fruit trees) with full maintenance services included. Perfectly placed next to the upcoming Amaravati Outer Ring Road region.',
     bankLoanAvailable: false,
     featured: true,
-    video: '/property-video-1.mp4',
+    video: '/0002-1.mp4',
     images: [
       'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80'
     ],
