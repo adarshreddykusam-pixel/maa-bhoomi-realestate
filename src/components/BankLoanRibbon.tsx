@@ -37,7 +37,6 @@ export const BankLoanRibbon: React.FC<BankLoanRibbonProps> = ({ onContactClick }
           </div>
           <div className="text-[10px] text-slate-300 flex flex-col gap-0.5 pt-1.5 border-t border-white/15">
             <span className="font-semibold">L.P. NO: <span className="text-white font-extrabold">4/2025</span></span>
-            <span className="font-semibold">Approval Code: <span className="text-white font-extrabold">1168/GNT/DPMS</span></span>
           </div>
         </div>
       </div>

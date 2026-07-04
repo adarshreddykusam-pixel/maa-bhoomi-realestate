@@ -178,7 +178,7 @@ function App() {
                     Bank Loan Available on All CRDA Approved Layouts & Flats
                   </h3>
                   <h4 className="text-lg font-bold text-brand-green mb-3 text-telugu">
-                    బ్యాంక్ లోన్ సదుపాయం అందుబాటులో ఉంది (1168/GNT/DPMS)
+                    బ్యాంక్ లోన్ సదుపాయం అందుబాటులో ఉంది
                   </h4>
                   <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
                     Our plots and projects are fully scrutinized and approved by India's top lending institutions (SBI, HDFC Bank, ICICI, LIC HFL). We assist with compiling documents, verification tracking, and securing easy interest rate EMIs.
