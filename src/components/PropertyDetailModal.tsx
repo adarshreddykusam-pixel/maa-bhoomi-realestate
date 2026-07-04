@@ -10,13 +10,21 @@ interface PropertyDetailModalProps {
 
 export const PropertyDetailModal: React.FC<PropertyDetailModalProps> = ({ property, isOpen, onClose }) => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [activeVideoIndex, setActiveVideoIndex] = useState(0);
   const [mediaType, setMediaType] = useState<'photo' | 'video'>('photo');
+
+  const videoUrls = property?.videos && property.videos.length > 0 
+    ? property.videos 
+    : (property?.video ? [property.video] : []);
+  const hasVideos = videoUrls.length > 0;
 
   // Reset media type state when property changes
   useEffect(() => {
     if (property) {
-      setMediaType(property.video ? 'video' : 'photo');
+      const hasVids = property.video || (property.videos && property.videos.length > 0);
+      setMediaType(hasVids ? 'video' : 'photo');
       setActiveImageIndex(0);
+      setActiveVideoIndex(0);
     }
   }, [property]);
   
@@ -94,7 +102,7 @@ Notes: ${message}`;
           {/* Left Column: Image/Video Gallery & Description */}
           <div className="flex flex-col gap-5">
             {/* Video/Photo Tab Switcher */}
-            {property.video && (
+            {hasVideos && (
               <div className="flex bg-slate-100 p-1 rounded-xl self-start gap-1">
                 <button
                   type="button"
@@ -108,7 +116,7 @@ Notes: ${message}`;
                   <svg className="h-4 w-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z" />
                   </svg>
-                  Video Tour
+                  Video Tour {videoUrls.length > 1 && `(${videoUrls.length})`}
                 </button>
                 <button
                   type="button"
@@ -129,9 +137,10 @@ Notes: ${message}`;
 
             {/* Active Display Media */}
             <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden bg-slate-950 border border-slate-100 shadow-sm flex items-center justify-center">
-              {property.video && mediaType === 'video' ? (
+              {hasVideos && mediaType === 'video' ? (
                 <video 
-                  src={property.video} 
+                  key={videoUrls[activeVideoIndex]}
+                  src={videoUrls[activeVideoIndex]} 
                   controls 
                   autoPlay
                   muted
@@ -146,6 +155,26 @@ Notes: ${message}`;
                 />
               )}
             </div>
+
+            {/* Video Selector (only when multiple videos) */}
+            {mediaType === 'video' && videoUrls.length > 1 && (
+              <div className="flex gap-2 flex-wrap">
+                {videoUrls.map((_, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => setActiveVideoIndex(idx)}
+                    className={`px-3.5 py-2 text-xs font-black rounded-xl border transition-all cursor-pointer ${
+                      activeVideoIndex === idx 
+                        ? 'bg-brand-green border-brand-green text-white shadow-md shadow-brand-green/20' 
+                        : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    Video {idx + 1}
+                  </button>
+                ))}
+              </div>
+            )}
 
             {/* Thumbnail selector */}
             {mediaType === 'photo' && property.images.length > 1 && (
